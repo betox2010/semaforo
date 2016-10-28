@@ -1,17 +1,8 @@
-@media (max-width:1200px){
-	body{
-		background: red;
-	}
-	}
+@media (max-width:3000px)
+	{body{background: red;}}
 
-@media (max-width:700px){
-	body{
-		background: yellow;
-	}
-	}
+@media (max-width:700px)
+	{body{background: yellow;}}
 
-@media (max-width:600px){
-	body{
-		background: green;
-	}
-	}
+@media (max-width:500px)
+	{body{background: green;}}
