@@ -1,10 +1,10 @@
-.row {}
+.header	{ padding-top: 60px }
 
 [class*="col-"] {float:left; 
-	background-color:#ff9933;
+	background-color:#009933;
 	border:solid 1px;
-	border-color: #ffa64d}
-	
+	border-color: white}
+
 .col-1{width:10%;}
 .col-2{width:20%;}
 .col-3{width:30%;}
@@ -15,6 +15,17 @@
 .col-8{width:80%;}
 .col-9{width:90%;}
 .col-10{width:100%;}
+
+.col-offset-1{margin-left:10%;}
+.col-offset-2{margin-left:20%;}
+.col-offset-3{margin-left:30%;}
+.col-offset-4{margin-left:40%;}
+.col-offset-5{margin-left:50%;}
+.col-offset-6{margin-left:60%;}
+.col-offset-7{margin-left:70%;}
+.col-offset-8{margin-left:80%;}
+.col-offset-9{margin-left:90%;}
+.col-offset-10{margin-left:100%;}
 
 
 @media (max-width:3000px)
