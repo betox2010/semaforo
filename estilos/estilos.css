@@ -3,15 +3,41 @@ body{
 	padding:0;
 	width:100%;
 	height:auto;
+	}
+
+.row {
+	content:'';
+	display: block;
+	clear: both;
+	margin: 0 auto;
+	}
+
+.header	{ 
+	padding-top: 60px 
+	}
+
+.depa {
+	display: inline;
+	float: left;
+	background-color: green;
+	width: 120px;
+	height: 120px;
+	}
+
+.ventana {
+	display: block;
+	float: left;
+	background-color: lightblue;
+	margin: 5%;
+	height: 50px; 
+    width: 50px; 
+	}
+
+.clearfix {
+  overflow: auto;
 }
 
-.header	{ padding-top: 60px }
-
-[class*="col-"] {float:left; 
-	background-color:#009933;
-	border:solid 1px;
-	border-color: white}
-
+[class*="col-"]
 .col-1{width:10%;}
 .col-2{width:20%;}
 .col-3{width:30%;}
@@ -35,8 +61,8 @@ body{
 .col-offset-10{margin-left:100%;}
 
 
-@media (max-width:3000px)
+@media (min-width:701px)
 	{body{background: #33ccff;}}
 
-@media (max-width:500px)
+@media (max-width:700px)
 	{body{background: black;}}
