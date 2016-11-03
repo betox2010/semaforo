@@ -5,19 +5,12 @@ body{
 	height:auto;
 	}
 
-.row {
-	content:'';
-	display: block;
-	clear: both;
-	margin: 0 auto;
-	}
-
 .header	{ 
 	padding-top: 60px 
 	}
 
 .depa {
-	display: inline;
+	display: inline-block;
 	float: left;
 	background-color: green;
 	width: 120px;
